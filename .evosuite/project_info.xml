@@ -6,7 +6,7 @@
     <generatedTestSuites>
         <fullNameOfTargetClass>tutorial.Stack</fullNameOfTargetClass>
         <fullNameOfTestSuite>tutorial.Stack_ESTest</fullNameOfTestSuite>
-        <totalEffortInSeconds>141</totalEffortInSeconds>
+        <totalEffortInSeconds>212</totalEffortInSeconds>
         <coverageTestSuites>
             <id>0</id>
             <fullPathOfTestSuite>/home/akanksha/Desktop/Tutorial_Maven/.evosuite/tmp_2016_10_16_19_45_57/tests/tutorial/Stack_ESTest.java</fullPathOfTestSuite>
@@ -84,6 +84,45 @@
             <numberOfTests>9</numberOfTests>
             <totalNumberOfStatements>41</totalNumberOfStatements>
             <effortInSeconds>70</effortInSeconds>
+        </coverageTestSuites>
+        <coverageTestSuites>
+            <id>2</id>
+            <fullPathOfTestSuite>/home/akanksha/Desktop/Tutorial_Maven/.evosuite/tmp_2016_10_17_13_45_42/tests/tutorial/Stack_ESTest.java</fullPathOfTestSuite>
+            <coverage>
+                <criterion>LineCoverage</criterion>
+                <coverageValue>1.0</coverageValue>
+            </coverage>
+            <coverage>
+                <criterion>BranchCoverage</criterion>
+                <coverageValue>1.0</coverageValue>
+            </coverage>
+            <coverage>
+                <criterion>ExceptionCoverage</criterion>
+                <coverageValue>1.0</coverageValue>
+            </coverage>
+            <coverage>
+                <criterion>WeakMutationScore</criterion>
+                <coverageValue>0.94</coverageValue>
+            </coverage>
+            <coverage>
+                <criterion>OutputCoverage</criterion>
+                <coverageValue>1.0</coverageValue>
+            </coverage>
+            <coverage>
+                <criterion>MethodCoverage</criterion>
+                <coverageValue>1.0</coverageValue>
+            </coverage>
+            <coverage>
+                <criterion>MethodNoExceptionCoverage</criterion>
+                <coverageValue>1.0</coverageValue>
+            </coverage>
+            <coverage>
+                <criterion>CBranchCoverage</criterion>
+                <coverageValue>1.0</coverageValue>
+            </coverage>
+            <numberOfTests>9</numberOfTests>
+            <totalNumberOfStatements>41</totalNumberOfStatements>
+            <effortInSeconds>71</effortInSeconds>
         </coverageTestSuites>
     </generatedTestSuites>
 </ProjectInfo>

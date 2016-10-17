@@ -1,6 +1,7 @@
 * Starting client
-* Connecting to master process on port 14365
+* Connecting to master process on port 21158
 * Analyzing classpath: 
+  - /home/akanksha/Desktop/Tutorial_Maven/target/test-classes
   - /home/akanksha/Desktop/Tutorial_Maven/target/classes
   - /home/akanksha/.m2/repository/junit/junit/4.12/junit-4.12.jar
   - /home/akanksha/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
@@ -25,9 +26,9 @@
   - Method 4
   - MethodNoException 4
   - CBranchFitnessFactory 7
-* Using seed 1476667547055
+* Using seed 1476726344852
 * Starting evolution
-* Search finished after 66s and 736 generations, 186539 statements, best individual has fitness: 1.6666666666666667
+* Search finished after 66s and 747 generations, 186303 statements, best individual has fitness: 1.6666666666666667
 * Writing sequences to pool
 * Minimizing test suite
 * Going to analyze the coverage criteria
@@ -68,25 +69,25 @@
 * Generating assertions
 * Resulting test suite's mutation score: 63%
 * Compiling and checking tests
-[MASTER] 21:26:59.345 [pool-2-thread-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.ClassCastException: java.lang.String cannot be cast to tutorial.Stack
-[MASTER] 21:26:59.347 [pool-2-thread-1] WARN  JUnitAnalyzer - Failing test: Stack<Object> stack0 = new Stack<Object>();
+[MASTER] 13:46:57.752 [pool-2-thread-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.ClassCastException: java.lang.String cannot be cast to tutorial.Stack
+[MASTER] 13:46:57.754 [pool-2-thread-1] WARN  JUnitAnalyzer - Failing test: Stack<Object> stack0 = new Stack<Object>();
 stack0.push("8yEo[zF_>)wjC]:eL+9");
 Stack<Object> stack1 = (Stack<Object>)stack0.pop();
 stack1.isEmpty();
 
-[MASTER] 21:26:59.417 [pool-2-thread-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.ClassCastException: java.lang.String cannot be cast to tutorial.Stack
-[MASTER] 21:26:59.417 [pool-2-thread-1] WARN  JUnitAnalyzer - Failing test: Stack<Object> stack0 = new Stack<Object>();
+[MASTER] 13:46:57.829 [pool-2-thread-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.ClassCastException: java.lang.String cannot be cast to tutorial.Stack
+[MASTER] 13:46:57.829 [pool-2-thread-1] WARN  JUnitAnalyzer - Failing test: Stack<Object> stack0 = new Stack<Object>();
 stack0.push("8yEo[zF_>)wjC]:eL+9");
 Stack<Object> stack1 = (Stack<Object>)stack0.pop();
 stack1.pop();
 
-[MASTER] 21:26:59.496 [pool-2-thread-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.ClassCastException: java.lang.String cannot be cast to tutorial.Stack
-[MASTER] 21:26:59.496 [pool-2-thread-1] WARN  JUnitAnalyzer - Failing test: Stack<Object> stack0 = new Stack<Object>();
+[MASTER] 13:46:57.916 [pool-2-thread-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.ClassCastException: java.lang.String cannot be cast to tutorial.Stack
+[MASTER] 13:46:57.917 [pool-2-thread-1] WARN  JUnitAnalyzer - Failing test: Stack<Object> stack0 = new Stack<Object>();
 stack0.push("8yEo[zF_>)wjC]:eL+9");
 Stack<Object> stack1 = (Stack<Object>)stack0.pop();
 Object object0 = new Object();
 stack1.push(object0);
 
-* Writing JUnit test case 'Stack_ESTest' to /home/akanksha/Desktop/Tutorial_Maven/.evosuite/tmp_2016_10_16_21_25_45/tests
+* Writing JUnit test case 'Stack_ESTest' to /home/akanksha/Desktop/Tutorial_Maven/.evosuite/tmp_2016_10_17_13_45_42/tests
 * Done!
 
