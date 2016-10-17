@@ -9,7 +9,7 @@ public class Stack<T> {
   /** Function to push values in stack.
    * @param object.
    */
-  public void push(T object) {
+  public final void push(T object) {
     if (pointer >= capacity) {
       throw new IllegalArgumentException("Stack exceeded capacity!");
     }
@@ -20,7 +20,7 @@ public class Stack<T> {
    * @return object
    */
   
-  public final T pop() {
+  public final T Pop() {
     if (pointer <= 0) {
       throw new IllegalArgumentException("Stack empty");
     }
@@ -31,7 +31,7 @@ public class Stack<T> {
    * @return integer
    */
   
-  public boolean isEmpty() {
+  public final boolean isEmpty() {
     return pointer <= 0;
   } 
 }
