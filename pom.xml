@@ -22,17 +22,6 @@
                   <artifactId>evosuite-maven-plugin</artifactId>
                   <version>1.0.3</version>
                 </plugin>
-                <plugin>
-                   <groupId>org.codehaus.mojo</groupId>
-                   <artifactId>emma-maven-plugin</artifactId>
-                   <version>1.0-alpha-3</version>
-                   <configuration>
-                            <formats>
-                                <format>html</format>
-                                <format>xml</format>
-                            </formats>
-                   </configuration>
-               </plugin>
             </plugins>
         </pluginManagement>
   </build>
@@ -71,20 +60,6 @@
           <dependencyLocationsEnabled>false</dependencyLocationsEnabled>
   			</configuration>
 			</plugin>
-			<plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>emma-maven-plugin</artifactId>
-        <version>1.0-alpha-3</version>
-        <configuration>
-          <formats>
-              <format>html</format>
-              <format>xml</format>
-          </formats>
-          <metadataFile>${project.build.directory}/coverage.em</metadataFile>
-          <outputDirectory>${project.build.directory}/generated-classes/emma</outputDirectory>
-        </configuration>
-        </plugin>
-      <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>cobertura-maven-plugin</artifactId>
         <version>2.6</version>
