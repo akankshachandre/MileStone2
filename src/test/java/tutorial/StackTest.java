@@ -13,10 +13,10 @@ public class StackTest {
 	Assert.assertFalse(stack.isEmpty());
     }
     
-   /* @Test
+   @Test
     public void failtest(){
       Stack<Object> stack = new Stack<Object>();
       Assert.assertFalse(stack.isEmpty());
-    }*/
+    }
    
 }
