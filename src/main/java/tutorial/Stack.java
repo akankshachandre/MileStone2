@@ -1,16 +1,22 @@
 package tutorial;
 
+/**
+ * @author amruta
+ *
+ * @param <T>
+ */
+
 public class Stack<T> {
-  private static final int capacity = 10;
+  private static final int CAPACITY = 10;
   private int pointer  = 0;
-  private T[] objects = (T[]) new Object[capacity];
+  private T[] objects = (T[]) new Object[CAPACITY];
   
   
   /** Function to push values in stack.
    * @param object.
    */
   public final void push(final T object) {
-    if (pointer >= capacity) {
+    if (pointer >= CAPACITY) {
       throw new IllegalArgumentException("Stack exceeded capacity!");
     }
     objects[pointer++] = object;
