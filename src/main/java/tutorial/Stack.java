@@ -1,7 +1,7 @@
 package tutorial;
 
 public class Stack<T> {
-    private int capacity = 10;
+	private int capacity = 10;
     private int pointer  = 0;
     private T[] objects = (T[]) new Object[capacity];
     
@@ -16,6 +16,6 @@ public class Stack<T> {
 	return objects[--pointer];
     }
     public boolean isEmpty() {
-	return pointer <= 0;
+    	return pointer <= 0;
     } 
 }
