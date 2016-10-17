@@ -3,7 +3,7 @@
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="src" path="src/test/java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/home/akanksha/Downloads/evosuite-1.0.3.jar"/>
-	<classpathentry kind="lib" path="/home/akanksha/Downloads/evosuite-standalone-runtime-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/home/amruta/Fall2016/Devops/MileStone2/evosuite-standalone-runtime-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/home/amruta/Fall2016/Devops/MileStone2/evosuite-1.0.3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
