@@ -3,7 +3,8 @@ package tutorial;
 public class Stack<T> {
 	private int capacity = 10;
     private int pointer  = 0;
-    private T[] objects = (T[]) new Object[capacity];
+    @SuppressWarnings("unchecked")
+	private T[] objects = (T[]) new Object[capacity];
     
     public void push(T o) {
 	if(pointer >= capacity)
