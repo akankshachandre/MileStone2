@@ -81,6 +81,8 @@
                                 <format>html</format>
                                 <format>xml</format>
                             </formats>
+                            <metadataFile>${project.build.directory}/coverage.em</metadataFile>
+                            <outputDirectory>${project.build.directory}/generated-classes/emma</outputDirectory>
                    </configuration>
              </plugin>
 	
