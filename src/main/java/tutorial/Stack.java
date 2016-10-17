@@ -1,7 +1,7 @@
 package tutorial;
 
 public class Stack<T> {
-  private int capacity = 10;
+  private static final int capacity = 10;
   private int pointer  = 0;
   private T[] objects = (T[]) new Object[capacity];
   
@@ -9,7 +9,7 @@ public class Stack<T> {
   /** Function to push values in stack.
    * @param object.
    */
-  public final void push(T object) {
+  public final void push(final T object) {
     if (pointer >= capacity) {
       throw new IllegalArgumentException("Stack exceeded capacity!");
     }
