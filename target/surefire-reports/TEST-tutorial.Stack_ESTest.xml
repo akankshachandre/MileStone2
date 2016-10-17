@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="tutorial.Stack_ESTest" time="0.044" errors="6" skipped="0">
+<testsuite tests="6" failures="0" name="tutorial.Stack_ESTest" time="0.036" errors="6" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/opt/jdk/jdk1.8.0_71/jre/lib/amd64"/>
@@ -42,7 +42,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/opt/jdk/jdk1.8.0_71/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher site"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean site"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -60,7 +60,7 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="tutorial.Stack_ESTest" name="test0" time="0.016">
+  <testcase classname="tutorial.Stack_ESTest" name="test0" time="0.025">
     <error message="Could not initialize class tutorial.Stack" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class tutorial.Stack
 	at tutorial.Stack_ESTest.test0(Stack_ESTest.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -162,7 +162,7 @@ org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </system-err>
   </testcase>
-  <testcase classname="tutorial.Stack_ESTest" name="test1" time="0.012">
+  <testcase classname="tutorial.Stack_ESTest" name="test1" time="0">
     <error message="Could not initialize class tutorial.Stack" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class tutorial.Stack
 	at tutorial.Stack_ESTest.test1(Stack_ESTest.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -179,7 +179,7 @@ org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 	at java.lang.Thread.run(Thread.java:745)
 </error>
   </testcase>
-  <testcase classname="tutorial.Stack_ESTest" name="test2" time="0.005">
+  <testcase classname="tutorial.Stack_ESTest" name="test2" time="0">
     <error message="Could not initialize class tutorial.Stack" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class tutorial.Stack
 	at tutorial.Stack_ESTest.test2(Stack_ESTest.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -196,7 +196,7 @@ org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 	at java.lang.Thread.run(Thread.java:745)
 </error>
   </testcase>
-  <testcase classname="tutorial.Stack_ESTest" name="test3" time="0.003">
+  <testcase classname="tutorial.Stack_ESTest" name="test3" time="0.001">
     <error message="Could not initialize class tutorial.Stack" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class tutorial.Stack
 	at tutorial.Stack_ESTest.test3(Stack_ESTest.java:56)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -213,7 +213,7 @@ org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 	at java.lang.Thread.run(Thread.java:745)
 </error>
   </testcase>
-  <testcase classname="tutorial.Stack_ESTest" name="test4" time="0.003">
+  <testcase classname="tutorial.Stack_ESTest" name="test4" time="0.004">
     <error message="Could not initialize class tutorial.Stack" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class tutorial.Stack
 	at tutorial.Stack_ESTest.test4(Stack_ESTest.java:82)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -230,7 +230,7 @@ org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 	at java.lang.Thread.run(Thread.java:745)
 </error>
   </testcase>
-  <testcase classname="tutorial.Stack_ESTest" name="test5" time="0.005">
+  <testcase classname="tutorial.Stack_ESTest" name="test5" time="0.006">
     <error message="Could not initialize class tutorial.Stack" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: Could not initialize class tutorial.Stack
 	at tutorial.Stack_ESTest.test5(Stack_ESTest.java:92)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

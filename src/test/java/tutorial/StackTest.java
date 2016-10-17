@@ -14,4 +14,11 @@ public class StackTest {
 	stack.push(new Object());
 	Assert.assertFalse(stack.isEmpty());
     }
+    
+   /* @Test
+    public void failtest(){
+      Stack<Object> stack = new Stack<Object>();
+      Assert.assertFalse(stack.isEmpty());
+    }*/
+   
 }

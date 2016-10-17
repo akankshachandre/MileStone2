@@ -1,9 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: tutorial.StackTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
 test(tutorial.StackTest)  Time elapsed: 0 sec  <<< ERROR!
-java.lang.ClassFormatError: Illegal local variable table length 27 in method tutorial.Stack.<init>()V
+java.lang.NoClassDefFoundError: Could not initialize class com.vladium.emma.rt.RT
+	at tutorial.Stack.$VRi(Stack.java)
+	at tutorial.Stack.<clinit>(Stack.java)
 	at tutorial.StackTest.test(StackTest.java:13)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
