@@ -16,12 +16,8 @@ public class Stack<T> {
     private int pointer  = 0;
     @SuppressWarnings("unchecked")
 	private T[] objects = (T[]) new Object[capacity];
-    
-    public void push(T o) {
 	if(pointer >= capacity)
 	    throw new IllegalArgumentException("Stack exceeded capacity!");
-	objects[pointer++] = o;
-    }
     objects[pointer++] = object;
   }
   
