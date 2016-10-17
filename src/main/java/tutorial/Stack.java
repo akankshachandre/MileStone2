@@ -12,12 +12,7 @@ public class Stack<T> {
   public void push(T object) {
     if (pointer >= capacity) {
       throw new IllegalArgumentException("Stack exceeded capacity!");
-	private int capacity = 10;
-    private int pointer  = 0;
-    @SuppressWarnings("unchecked")
-	private T[] objects = (T[]) new Object[capacity];
-	if(pointer >= capacity)
-	    throw new IllegalArgumentException("Stack exceeded capacity!");
+    }
     objects[pointer++] = object;
   }
   
