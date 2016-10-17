@@ -1,0 +1,92 @@
+* Starting client
+* Connecting to master process on port 14365
+* Analyzing classpath: 
+  - /home/akanksha/Desktop/Tutorial_Maven/target/classes
+  - /home/akanksha/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/akanksha/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class tutorial.Stack
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 12
+  - Branch 7
+  - Exception 0
+  - MutationFactory 52
+  - Output 4
+  - Method 4
+  - MethodNoException 4
+  - CBranchFitnessFactory 7
+* Using seed 1476667547055
+* Starting evolution
+* Search finished after 66s and 736 generations, 186539 statements, best individual has fitness: 1.6666666666666667
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 12
+* Number of covered goals: 12
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 7
+* Number of covered goals: 7
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 5
+* Number of covered goals: 5
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 94%
+* Total number of goals: 52
+* Number of covered goals: 49
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 7
+* Number of covered goals: 7
+* Generated 9 tests with total length 41
+* Resulting test suite's coverage: 99% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 63%
+* Compiling and checking tests
+[MASTER] 21:26:59.345 [pool-2-thread-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.ClassCastException: java.lang.String cannot be cast to tutorial.Stack
+[MASTER] 21:26:59.347 [pool-2-thread-1] WARN  JUnitAnalyzer - Failing test: Stack<Object> stack0 = new Stack<Object>();
+stack0.push("8yEo[zF_>)wjC]:eL+9");
+Stack<Object> stack1 = (Stack<Object>)stack0.pop();
+stack1.isEmpty();
+
+[MASTER] 21:26:59.417 [pool-2-thread-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.ClassCastException: java.lang.String cannot be cast to tutorial.Stack
+[MASTER] 21:26:59.417 [pool-2-thread-1] WARN  JUnitAnalyzer - Failing test: Stack<Object> stack0 = new Stack<Object>();
+stack0.push("8yEo[zF_>)wjC]:eL+9");
+Stack<Object> stack1 = (Stack<Object>)stack0.pop();
+stack1.pop();
+
+[MASTER] 21:26:59.496 [pool-2-thread-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.ClassCastException: java.lang.String cannot be cast to tutorial.Stack
+[MASTER] 21:26:59.496 [pool-2-thread-1] WARN  JUnitAnalyzer - Failing test: Stack<Object> stack0 = new Stack<Object>();
+stack0.push("8yEo[zF_>)wjC]:eL+9");
+Stack<Object> stack1 = (Stack<Object>)stack0.pop();
+Object object0 = new Object();
+stack1.push(object0);
+
+* Writing JUnit test case 'Stack_ESTest' to /home/akanksha/Desktop/Tutorial_Maven/.evosuite/tmp_2016_10_16_21_25_45/tests
+* Done!
+
