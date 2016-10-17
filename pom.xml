@@ -23,11 +23,17 @@
                   <version>1.0.3</version>
                 </plugin>
                 <plugin>
-					<groupId>org.codehaus.mojo</groupId>
-					<artifactId>emma-maven-plugin</artifactId>
-					<version>1.0-alpha-3</version>
-					<inherited>true</inherited>
-	      		</plugin>
+        					<groupId>org.codehaus.mojo</groupId>
+        					<artifactId>emma-maven-plugin</artifactId>
+        					<version>1.0-alpha-3</version>
+        					<inherited>true</inherited>
+                  <configuration>
+                       <formats>
+                           <format>html</format>
+                           <format>xml</format>
+                       </formats>
+                  </configuration>
+        	      </plugin>
             </plugins>
         </pluginManagement>
   </build>
@@ -67,17 +73,6 @@
 				          <dependencyLocationsEnabled>false</dependencyLocationsEnabled>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>emma-maven-plugin</artifactId>
-				<version>1.0-alpha-3</version>
-				<inherited>true</inherited>
-	      </plugin>
-	
 	    </plugins>
   </reporting>
-
-
-
-
 </project>
