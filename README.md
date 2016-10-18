@@ -1,8 +1,8 @@
 ## Milestone 2: Test + Analysis
-Team members:
-1. Akanksha Chandre - achand10
-2. Amruta Shintre - ashintr
-3. Vaibhav Rajadhyaksha - vrajadh
+Team members:  
+1. Akanksha Chandre - achand10  
+2. Amruta Shintre - ashintr  
+3. Vaibhav Rajadhyaksha - vrajadh  
 
 ### Test
 We have used Jenkins as the build server. The java maven project is ---
