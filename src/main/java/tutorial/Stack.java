@@ -26,7 +26,7 @@ public class Stack<T> {
    * @return object
    */
   
-  public final T Pop() {
+  public final T pop() {
     if (pointer <= 0) {
       throw new IllegalArgumentException("Stack empty");
     }

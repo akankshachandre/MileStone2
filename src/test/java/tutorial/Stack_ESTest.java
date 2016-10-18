@@ -23,7 +23,7 @@ public class Stack_ESTest extends Stack_ESTest_scaffolding {
       
       stack0.push("?t[");
       stack0.push("?t[");
-      stack0.Pop();
+      stack0.pop();
       assertFalse(stack0.isEmpty());
   }
 
@@ -31,7 +31,7 @@ public class Stack_ESTest extends Stack_ESTest_scaffolding {
   public void test1()  throws Throwable  {
       Stack<Object> stack0 = new Stack<Object>();
       stack0.push((Object) null);
-      stack0.Pop();
+      stack0.pop();
       assertTrue(stack0.isEmpty());
   }
 
@@ -40,7 +40,7 @@ public class Stack_ESTest extends Stack_ESTest_scaffolding {
       Stack<Object> stack0 = new Stack<Object>();
       // Undeclared exception!
       try { 
-        stack0.Pop();
+        stack0.pop();
         fail("Expecting exception: IllegalArgumentException");
       
       } catch(IllegalArgumentException e) {
@@ -93,7 +93,7 @@ public class Stack_ESTest extends Stack_ESTest_scaffolding {
       stack0.push("8yEo[zF_>)wjC]:eL+9");
       assertFalse(stack0.isEmpty());
       
-      stack0.Pop();
+      stack0.pop();
       boolean boolean0 = stack0.isEmpty();
       assertTrue(boolean0);
   }
