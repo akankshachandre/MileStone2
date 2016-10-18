@@ -6,23 +6,10 @@ sleep 30
 JSON=$(wget --auth-no-challenge --http-user=ashintr --http-password=amruta123 -qO- http://127.0.0.1:8080/job/job2/lastBuild/api/json)
 RESULT=$(echo $JSON | grep -oe '"result":"\w\+"' | cut -d \" -f4 | tr -d '\n')
 
-# echo $JSON
 echo $RESULT
 
-# while [ -z $RESULT ]; do
-#     echo "Waiting for the build to get completed"
-#     sleep 5
-#     JSON=$(wget -qO- http://127.0.0.1:8080/job/job2/lastBuild/api/json)
-#     RESULT=$(echo $JSON | grep -oe '"result":"\w\+"' | cut -d \" -f4 | tr -d '\n')
-# done
-
-# echo "Found build status"
-
 if [ $RESULT = "FAILURE" ]; then
-    echo "Fetching previous commit and resetting it"
-    # previous=$(git log -n 2 --pretty=format:"%H" --skip=1 -max-count=1)
+    echo "Reset to previous commit"
     previous=$(git log --skip=1 --max-count=1 --pretty=format:"%H")
-    # previousCommit=$(echo $commits | awk '{print $2}')
-    # git reset $previousCommit
     git reset $previous
 fi
