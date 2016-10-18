@@ -5,9 +5,13 @@ FILE="./test.js"
 re="config.token[=][\"][a-zA-Z0-9\"]"
 if [ $count != 0 ] 
     then 
-    echo true
+    echo '.pem file found'
+    echo 'Rejecting commit'
+    exit 1
 fi
 if grep -q $re $FILE
     then
-    echo true
+    echo 'File contains security token'
+    echo 'Rejecting commit'
+    exit 1
 fi 
