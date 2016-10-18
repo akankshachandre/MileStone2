@@ -1,1 +1,0 @@
-config.token="abcd"
