@@ -1,10 +1,10 @@
 #!/bin/sh
 
-curl --user ashintr:amruta123 -s http://localhost:8080/job/job2/build?token=12345
+curl --user akankshachandre:Indore_2312 -s http://localhost:8080/job/devopsmil2/build?token=12345
 
 sleep 30
-JSON=$(wget --auth-no-challenge --http-user=ashintr --http-password=amruta123 -qO- http://127.0.0.1:8080/job/job2/lastBuild/api/json)
-RESULT=$(echo $JSON | grep -oe '"result":"\w\+"' | cut -d \" -f4 | tr -d '\n')
+BUILD_JSON=$(wget --auth-no-challenge --http-user=akankshachandre --http-password=Indore_2312 -qO- http://127.0.0.1:8080/job/devopsmil2/lastBuild/api/json)
+RESULT=$(echo $BUILD_JSON | grep -oe '"result":"\w\+"' | cut -d \" -f4 | tr -d '\n')
 
 echo $RESULT
 
