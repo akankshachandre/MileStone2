@@ -5,7 +5,8 @@ Team members:
 3. Vaibhav Rajadhyaksha - vrajadh  
 
 ### Test
-We have used Jenkins as the build server. The java maven project we have used is the sample project given in Evosuite. 
+We have used Jenkins as the build server. The java maven project we have used is the sample project given in Evosuite.  
+(http://evosuite.org/files/tutorial/Tutorial_Maven.zip)
 We have created a job in Jenkins for a local git repository. 
 
 #### Build
