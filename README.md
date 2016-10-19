@@ -9,9 +9,6 @@ We have used Jenkins as the build server. The java maven project we have used is
 (http://evosuite.org/files/tutorial/Tutorial_Maven.zip)
 We have created a job in Jenkins for a local git repository. 
 
-#### Build
-In the build step in Jenkins, add the following goal:
-
 #### Test suites
 We have used Cobertura to measure and report code coverage.
 - Maven: Edit ```pom.xml``` to include cobertura maven plugin in the reporting section.
