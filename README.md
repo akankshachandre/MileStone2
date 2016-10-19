@@ -48,3 +48,4 @@ We have written a post-commit hook to implement test and analysis gates. It chec
   In the build step in Jenkins, add the goal ```checkstyle:check```.
 
 #### Screencast
+(https://youtu.be/yPaBgsHu9GI)
